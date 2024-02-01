@@ -1,0 +1,20 @@
+.loginbox ::-webkit-input-placeholder {
+  color: #b3aeae;
+}
+.loginbox .ant-input,
+.loginbox .ant-input-password {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #1890ff;
+  color: #fff;
+  height: 38px;
+}
+.loginbox .ant-input-password .ant-input {
+  height: 28px;
+}
+.loginbox .ant-input-password-icon.anticon,
+.loginbox .ant-input-password-icon.anticon:hover {
+  color: #1890ff;
+}
+.loginbox .loginBtn {
+  height: 38px;
+}

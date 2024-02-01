@@ -1,0 +1,14 @@
+body {
+  background-color: #fcf;
+  user-select: none;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+.demo-logo-vertical {
+  height: 32px;
+  margin: 16px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
