@@ -9,8 +9,10 @@ import Login from '@/views/Login';
 import Register from '@/views/Register';
 const Page1 =lazy(()=>import('../views/page1'))
 const Page301 =lazy(()=>import('../views/Page301'))
+const User =lazy(()=>import('../views/User'))
+const Upload =lazy(()=>import('../views/Upload'))
 //重定向
-import { Navigate } from "react-router-dom";
+import { Navigate } from "react-router-dom"; 
 const withLoadingComponent = (comp:JSX.Element)=>(
     <React.Suspense fallback={<div>Loading</div>}>
         {comp}
@@ -33,6 +35,14 @@ const routes = [
             {
                 path:'/page3/page301',
                 element:withLoadingComponent(<Page301/>)
+            },
+            {
+                path:'/page3/user',
+                element:withLoadingComponent(<User/>)
+            },
+            {
+                path:'/page3/upload',
+                element:withLoadingComponent(<Upload/>)
             }
         ]
     },    // 嵌套路由结束

@@ -54,11 +54,11 @@ import {
             },
             {
                 label:'个人中心',
-                key:'/page3/page302',
+                key:'/page3/User',
             },
             {
                 label:'发布博客',
-                key:'/page3/page303',
+                key:'/page3/Upload',
             }
         ]
     }
